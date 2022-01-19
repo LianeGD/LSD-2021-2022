@@ -1,0 +1,58 @@
+body{
+    /*background-color: red;*/
+}
+
+.cx-1 , .cx-2{
+
+    margin: 20px;
+}
+.cx-1{
+
+/*width: 100%; -- Visualização a 100%*/
+width:calc(100% - 60px);
+height:100px;
+background: green;
+
+}
+
+.cx-2{
+
+    margin: 20;
+    width:calc(50% - 60px);
+    height:100px;
+    background: orange;
+    float: left;
+
+}
+
+.cx-interior{
+   
+    width: 100%;
+    height: 50px;
+    background: yellow;
+    
+}
+
+.cx-interior1 , .cx-interior2 , .cx-interior3{
+
+    width: calc(33.33% - 20px);
+    height: 70px;
+    float: left;
+    padding: 10px;
+}
+
+.cx-interior1{
+   
+    background: violet; 
+}
+
+.cx-interior2{
+   
+    background:pink; 
+}
+
+
+.cx-interior3{
+    
+    background: purple; 
+}
