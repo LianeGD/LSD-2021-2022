@@ -1,0 +1,112 @@
+@font-face {   /* Chamar a font*/ 
+
+    font-family: "A-minha-font";
+    src: url(../fonts/Pacifico-Regular.ttf);
+
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper{    /* O ponto atrás da palvra significa class --> tudo*/
+
+        width:100%;
+        height: 1000px;
+        background-color: orange;
+
+}
+
+header{  /* Quando não tem ponto é tag*/
+
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    float: left;
+    padding-top: 15px;
+    
+
+}
+
+.hero{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/banner.jpg); /* vai buscar a imagem na pasta de ficheiros*/
+    background-position: top center; /* foco da imagem mantém-se no centro*/
+    float: left;
+}
+
+.main-content{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: pink;
+}
+
+.box-content{
+
+    width: 100%;
+    height: 200px;
+    float: left;
+    background: lavender;
+}
+
+section.article-section{
+
+    width: 100%;
+    background: red;
+    height: 200px;
+    float:left;
+}
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background:#25a2c3;
+    float: left;
+}
+
+header div{
+
+    text-align: center;
+    
+}
+
+header div:first-child{
+
+    background: red;
+    width: 100px;
+    height: 100px;
+    float:left; /* Obriga a ficar ESQUERDA*/
+
+}
+
+header div:nth-child(2){
+
+    width: calc(100% - 200px);
+    float: left;
+    font-family: "A-minha-font";
+}
+
+header div:nth-child(3){
+
+ 
+    width: 85px;
+    height: 100px;
+    float: right; /* Obriga a ficar DIREITA*/
+    padding-right: 15px;
+}
+
+header div button{
+
+    width:100px;
+    height: 35px;
+    background-color: lightpink;
+    color: #737a82;
+    border: 2px solid lightblue; 
+    border-radius: 10px;
+
+}
