@@ -8,8 +8,8 @@
 body{
 
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-
 
 .wrapper{    /* O ponto atrás da palvra significa class --> tudo*/
 
@@ -26,24 +26,146 @@ header{  /* Quando não tem ponto é tag*/
     background: #ffffff;
     float: left;
     padding-top: 15px;
-    
-
+    position: fixed;
+   
 }
 
 .hero{
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-image: url(../images/banner.jpg); /* vai buscar a imagem na pasta de ficheiros*/
     background-position: top center; /* foco da imagem mantém-se no centro*/
     float: left;
+    margin-top: 65px;
 }
 
+.hero div{
+    width:70%;
+    height: 200px;
+    margin-top: 200px;
+    /*margin-left: auto; /* só funciona se não tiver o float left*/
+    /*margin-right: auto; /* só funciona se não tiver o float right*/
+    margin-left: 15%;
+    margin-right: 15%;
+    float:left;
+    text-align: center;
+    color: skyblue;
+    
+}
+
+.hero div h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    color: #25a2c3;
+
+ 
+}
+
+.hero div p{
+
+    margin: 20px 0; /* 20 top e botton e 0 left and right*/
+    font-size: 16px;
+    line-height: 25px;
+    color: #727a82;
+    
+}
+
+.hero div button{
+
+    width:120px;
+    background: #f6755e;
+    color: #737a82;
+    font-weight: bold;
+    border: none; 
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+ 
+}
+
+
+
 .main-content{
-    width: 100%;
-    height: 300px;
+    width: calc(100% - 200px);
+    /*height: 600px;*/
     float: left;
     background: pink;
+    padding: 100px;
 }
+
+.coluna{
+
+    width:33.33%;
+    float:left;
+    height: 400px;
+    background: purple;
+}
+
+.coluna1{
+    background: black;
+}
+
+.coluna2{
+    background: gray;
+}
+
+.coluna3{
+
+    background: brown;
+}
+
+.coluna h2{
+
+    font-weight: bold;
+    color: #25a2c3;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.coluna p{
+
+    color: burlywood;
+}
+
+.coluna div:first-child{
+
+    margin-bottom: 50px;;
+}
+
+.coluna div{
+
+    text-align: right;
+}
+
+.coluna3 div{
+
+    text-align: left;
+}
+
+.coluna2 div{
+
+    text-align: center;
+}
+
+.moldura{
+
+    width:150px;
+    height:150px;
+    background: papayawhip;
+    margin: 0 auto;
+    border-radius: 75px;
+    overflow: hidden; /*tudo o que transbordar o elemento é para esconder*/
+}
+
+.moldura img{
+
+    width: 100%;
+
+
+}
+
+
 
 .box-content{
 
@@ -59,6 +181,7 @@ section.article-section{
     background: red;
     height: 200px;
     float:left;
+    
 }
 
 footer{
@@ -77,10 +200,23 @@ header div{
 
 header div:first-child{
 
-    background: red;
+
     width: 100px;
     height: 100px;
     float:left; /* Obriga a ficar ESQUERDA*/
+    font-size: 20px;
+    color: aqua;
+    margin-top: 8px;
+
+}
+
+header div:first-child span{
+
+    
+    padding: 5px;
+    border: 2px solid pink;
+    border-radius: 5px;
+
 
 }
 
@@ -89,6 +225,9 @@ header div:nth-child(2){
     width: calc(100% - 200px);
     float: left;
     font-family: "A-minha-font";
+    color:#f6755e;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 header div:nth-child(3){
@@ -104,7 +243,7 @@ header div button{
 
     width:100px;
     height: 35px;
-    background-color: lightpink;
+    background-color: #f6755e;
     color: #737a82;
     border: 2px solid lightblue; 
     border-radius: 10px;
