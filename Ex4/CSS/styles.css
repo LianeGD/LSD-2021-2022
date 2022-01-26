@@ -14,10 +14,14 @@ body{
 .wrapper{    /* O ponto atrás da palvra significa class --> tudo*/
 
         width:100%;
-        height: 1000px;
+        float: left;
+        /*height: 1000px;*/
         background-color: orange;
 
 }
+
+
+
 
 header{  /* Quando não tem ponto é tag*/
 
@@ -28,168 +32,6 @@ header{  /* Quando não tem ponto é tag*/
     padding-top: 15px;
     position: fixed;
    
-}
-
-.hero{
-    width: 100%;
-    height: 600px;
-    background-image: url(../images/banner.jpg); /* vai buscar a imagem na pasta de ficheiros*/
-    background-position: top center; /* foco da imagem mantém-se no centro*/
-    float: left;
-    margin-top: 65px;
-}
-
-.hero div{
-    width:70%;
-    height: 200px;
-    margin-top: 200px;
-    /*margin-left: auto; /* só funciona se não tiver o float left*/
-    /*margin-right: auto; /* só funciona se não tiver o float right*/
-    margin-left: 15%;
-    margin-right: 15%;
-    float:left;
-    text-align: center;
-    color: skyblue;
-    
-}
-
-.hero div h1{
-
-    font-size: 40px;
-    font-weight: bold;
-    color: #25a2c3;
-
- 
-}
-
-.hero div p{
-
-    margin: 20px 0; /* 20 top e botton e 0 left and right*/
-    font-size: 16px;
-    line-height: 25px;
-    color: #727a82;
-    
-}
-
-.hero div button{
-
-    width:120px;
-    background: #f6755e;
-    color: #737a82;
-    font-weight: bold;
-    border: none; 
-    padding: 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
- 
-}
-
-
-
-.main-content{
-    width: calc(100% - 200px);
-    /*height: 600px;*/
-    float: left;
-    background: pink;
-    padding: 100px;
-}
-
-.coluna{
-
-    width:33.33%;
-    float:left;
-    height: 400px;
-    background: purple;
-}
-
-.coluna1{
-    background: black;
-}
-
-.coluna2{
-    background: gray;
-}
-
-.coluna3{
-
-    background: brown;
-}
-
-.coluna h2{
-
-    font-weight: bold;
-    color: #25a2c3;
-    padding-bottom: 30px;
-    font-size: 20px;
-}
-
-.coluna p{
-
-    color: burlywood;
-}
-
-.coluna div:first-child{
-
-    margin-bottom: 50px;;
-}
-
-.coluna div{
-
-    text-align: right;
-}
-
-.coluna3 div{
-
-    text-align: left;
-}
-
-.coluna2 div{
-
-    text-align: center;
-}
-
-.moldura{
-
-    width:150px;
-    height:150px;
-    background: papayawhip;
-    margin: 0 auto;
-    border-radius: 75px;
-    overflow: hidden; /*tudo o que transbordar o elemento é para esconder*/
-}
-
-.moldura img{
-
-    width: 100%;
-
-
-}
-
-
-
-.box-content{
-
-    width: 100%;
-    height: 200px;
-    float: left;
-    background: lavender;
-}
-
-section.article-section{
-
-    width: 100%;
-    background: red;
-    height: 200px;
-    float:left;
-    
-}
-
-footer{
-
-    width: 100%;
-    height: 200px;
-    background:#25a2c3;
-    float: left;
 }
 
 header div{
@@ -248,4 +90,315 @@ header div button{
     border: 2px solid lightblue; 
     border-radius: 10px;
 
+}
+
+
+
+
+
+.hero{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/banner.jpg); /* vai buscar a imagem na pasta de ficheiros*/
+    background-position: top center; /* foco da imagem mantém-se no centro*/
+    float: left;
+    margin-top: 65px;
+}
+
+.hero div{
+    width:70%;
+    height: 200px;
+    margin-top: 200px;
+    /*margin-left: auto; /* só funciona se não tiver o float left*/
+    /*margin-right: auto; /* só funciona se não tiver o float right*/
+    margin-left: 15%;
+    margin-right: 15%;
+    float:left;
+    text-align: center;
+    color: skyblue;
+    
+}
+
+.hero div h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    color: #25a2c3;
+
+ 
+}
+
+.hero div p{
+
+    margin: 20px 0; /* 20 top e botton e 0 left and right*/
+    font-size: 16px;
+    line-height: 25px;
+    color: #727a82;
+    
+}
+
+.hero div button{
+
+    width:120px;
+    background: #f6755e;
+    color: #737a82;
+    font-weight: bold;
+    border: none; 
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+ 
+}
+
+
+
+
+
+.main-content{
+    width: calc(100% - 200px);
+    /*height: 600px; */
+    float: left;
+    /*background: pink;*/
+    padding: 100px;
+}
+
+.coluna{
+
+    width: 33.33%;
+    float:left;
+    /*height: 400px;---> retirar a altura faz com que a coluna se adapte ao texto indicado*/
+    /*background: purple;*/
+}
+
+.coluna1{
+
+    /*background: black;*/
+    
+}
+
+.coluna2{
+
+    /*background: gray;*/
+}
+
+.coluna3{
+
+    /*background: brown;*/
+    
+}
+
+.coluna h2{
+
+    font-weight: bold;
+    color: #25a2c3;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.coluna p{
+
+    color: black;
+}
+
+.coluna div:first-child{
+
+    margin-bottom: 50px;
+    
+}
+
+
+.coluna div{
+    text-align: right;
+}
+
+.coluna1 div, .coluna3 div{
+    padding: 20px;
+    /*background: teal;*/
+}
+
+.coluna3 div{
+    text-align: left;  
+}
+
+.coluna2 div{
+
+    text-align: center;
+    
+}
+
+.moldura{
+
+    width:350px;
+    height:350px;
+    background: papayawhip;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden; /*tudo o que transbordar o elemento é para esconder*/
+    
+}
+
+.moldura img{
+
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+.box-content{
+
+    width: calc(100% - 100px);
+    /*height: 200px;*/
+    float: left;
+    background: lavender;
+    padding: 50px;
+    
+}
+
+
+.box-content h2{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #25a2c3;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.box-content p{
+
+    text-align: center;
+}
+.box-content .quote{
+
+    font-style: italic;
+   margin-bottom: 40px;
+
+}
+
+.box-content span{
+
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+section.article-section{
+
+    width: 100%;
+    background: white;
+    /*height: 300px; ---> retirando vai permitir que cresça aquando do acréscimo de outros artigos*/
+    float:left;
+    padding: 50px 0;
+    
+}
+
+.article-section ul{
+
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+}
+
+.article-section li{
+
+    width: calc(33.33% - 42px);
+    /*height: 200px;*/
+    float:left;
+    margin: 20px 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.moldura2{
+
+    width:100%;
+    /*height:150px;*/
+    float: left;
+    /*background: papayawhip;*/
+    
+}
+
+.moldura2 img {
+
+    width:100%;
+}
+
+.article-section .conteudo{
+
+    width: calc(100% - 20px);
+    padding: 20px;
+    min-height: 100px;
+    float: left;
+}
+
+.article-section .conteudo h2{
+
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: steelblue;
+}
+
+.article-section .conteudo p{
+
+    color: #767d85;
+}
+
+
+
+
+
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background:#25a2c3;
+    float: left;
+}
+
+footer h2{
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+
+    width: 70%;
+    margin-left: 15%;
+}
+
+footer li{
+
+    width:33.33%;
+    float: left;
+}
+
+footer ul:first-child{
+
+    text-align: left;
+}
+
+footer ul:first-child(2){
+
+    text-align: center;
+}
+
+footer ul:first-child(3){
+
+    text-align: right;
 }
