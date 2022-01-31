@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-with, initial scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+   <form action="recebe_dados.html" method="post"> <!--deverá ser utilizado o método post de forma a que não fique visivel no url os dados de form preenchidos-->
+    <ul>
+        <li>
+            <label for="nome_inserido">Name: </label>
+            <input type="text" name="nome_inserido" placeholder="inserir-um-nome" required>
+        </li>
+
+        <li>
+            <label for="Email_inserido">Email: </label>
+            <input type="email" name="email_inserido" placeholder="inserir-um-email">
+        </li>
+            
+        <li>
+            <label for="data_nascimento"> Data de Nascimento </label>
+            <input name="data_nascimento" type="date">
+        </li>
+
+        <li>
+            <label>Genero:</label><br>
+           M <input type="radio" name="genero" value="masculino"><br> <!--colocar o name="genero" nos três inputs obriga a que apenas possa ser escolhido um deles-->
+           F <input type="radio" name="genero" value="feminino"><br>
+           Outro <input type="radio" name="genero" value="outro"><br>
+        </li>
+
+        <li>
+            <label> Cidade </label> 
+            <select name="cidade">
+                <option>-----</option>
+                <option value="1000">Lisboa</option>
+                <option value="2000">Porto</option>
+                <option value="3000">Braga</option>
+                <option value="5000">Coimbra</option>
+            </select>
+        </li>
+
+        <li>
+            <label> Interesses </label> 
+            <ul>
+                <li> Cinema <input type="checkbox" name="interesses[]"  value="Cinema"></li> <!--adicionar os [] faz com possa ser enviado mais do que um dos interesses-->
+                <li> Música <input type="checkbox" name="interesses[]"  value="Música"></li>           
+            </ul>
+        </li>
+
+        <li>
+            <label> Número de carros em casa </label> 
+            <input type="number" max="10"> 
+        </li>
+
+        <li>
+            <button>Enviar</button>
+        </li>
+    </ul>
+
+   </form>
+</body>
+
+</html>
