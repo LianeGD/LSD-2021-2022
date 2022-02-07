@@ -10,6 +10,13 @@ header{
     float: left;
     background-color: burlywood;
     position: fixed;
+    padding-top: 15px;
+    
+}
+
+header div{
+
+    font-size: 20px;
     
 }
 
@@ -20,15 +27,13 @@ header div:first-child{
     height: 50px;
     float: left;
     font-size: 20px;
-}
-
-header div{
-
-    font-size: 20px;
+    
 }
 
 header div span{
+
     color: darkturquoise;
+    
 }
 
 header div div:nth-child(2){
@@ -37,6 +42,8 @@ header div div:nth-child(2){
     float: right;
     font-size: 20px;
 }
+
+
 
 
 
