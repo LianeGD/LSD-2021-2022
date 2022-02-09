@@ -1,0 +1,21 @@
+.wrapper{
+    width: 100%;
+    background: orange;
+    height: 100vh;   /* unidade de medida vw (view port width) e vh (view port height )[(quando quiser 100% do ecrã utilizar o VH que funciona com % mas també busca o tamanho que a janela ocupa])---ao colocar 100vh o meu ecrã vai ter sempre 100%*/
+}
+
+.wrapper p{
+    font-size: 2vw;
+}
+
+@media screen and (max-width:600px) {  /* quando o ecrã tiver 600px o tamanho da letra mantém-se a 16px */
+    .wrapper p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1100px) {  /* quando o ecrã tiver no minimo 1100px o tamanho da fonte da letra mantém-se 25px */
+    .wrapper p{
+        font-size: 25px;
+    }
+}
