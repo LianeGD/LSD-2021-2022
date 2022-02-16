@@ -1,0 +1,22 @@
+/* Chamando este ficheiro diretamente no css pode escrever-se:
+@media screen and (max-width: 1000px){
+    .wrapper{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .article-list li{
+        width: calc(50% - 10px);
+        margin: 5px;
+
+    }
+} caso chame diretamente no index escrever o que está em baixo*/
+
+.wrapper{
+    width: 90%;
+    margin-left: 5%;
+}
+.article-list li{
+    width: calc(50% - 10px);
+    margin: 5px;
+
+}

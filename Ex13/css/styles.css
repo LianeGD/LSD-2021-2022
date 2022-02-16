@@ -1,0 +1,64 @@
+.caixa{
+    width:100px;
+    height:200px;
+    background: orange;
+    position: absolute;
+    top:100px;
+    left:100px;
+    animation-name: moveCaixaOutraVez;
+    animation-duration: 5s;
+    /*animation-direction: alternate;
+    animation-iteration-count: infinite;   ---> anda em loop de cima para baixo e vice-versa*/
+    animation-fill-mode: forwards; /* fica no final*/
+
+}
+
+@keyframes moveCaixa {           /*querie para animação --- podemos definir momentos adicionando percentagens */
+    from {
+        left:100px;
+        background: orange;
+    }
+
+    to {
+        left:300px;
+        background: yellow;
+    }
+}
+
+@keyframes moveCaixaOutraVez{
+    0% {
+        top:100px;
+        left:100px;
+        background: chartreuse;
+        color: crimson;
+        
+    }
+
+    25% {
+        top:100px;
+        left:200px;
+        background: cyan;
+        color: white;
+    }
+    
+    50% {
+        top:200px;
+        left:200px;
+        background: darkcyan;
+        color: violet;
+    }
+
+    75% {
+        top:200px;
+        left:300px;
+        background: blue;
+        color: yellow;
+    }
+
+    100%{
+        top:300px;
+        left:300px;
+        background: cornflowerblue;
+        color: green;
+    }
+}

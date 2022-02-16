@@ -1,3 +1,7 @@
+/*@import url("tablet.css");
+@import url("phone.css");
+*/
+
 .wrapper{
     width: 80%;
     margin-left: 10%;
@@ -36,14 +40,4 @@ article img{
     padding: 5px;;
 }
 
-@media screen and (max-width: 800px){
-    .wrapper{
-        width:90%;
-        margin-left: 5%;
-    }
-    .article-list li{
-        width:100%;
-        margin:5px 0;
 
-    }
-}

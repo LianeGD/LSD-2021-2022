@@ -1,0 +1,8 @@
+#top-menu li{
+    width: 100%;
+    margin: 0;
+}
+
+.dropdown-menu{
+    display: block;
+}

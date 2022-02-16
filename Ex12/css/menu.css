@@ -1,0 +1,42 @@
+#top-menu{    /*Quando se usam id no index, no ficheiro css usa-se o # */
+    width: 100%;
+    float: left;
+
+}
+
+#top-menu li{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+#top-menu a,
+#top-menu a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#top-menu li:hover{
+    background: orange;
+    color: white;
+}
+
+#top-menu .dropdown-menu li{
+    width: 100%;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+#top-menu li:hover .dropdown-menu{  /* quando lá tiver uma class dropdown ele passa a display block*/
+    display: block;
+}
+
+#top-menu .dropdown-menu li:hover{   /* a hierarquia obriga a ser utilizada a cor pretendida*/
+    background: cornflowerblue;
+}
+
