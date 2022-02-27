@@ -1,0 +1,55 @@
+.wrapper{
+    width: 70%;
+    margin-left: 15%; 
+}
+
+.box-container{
+    width: 100%;
+    background: red;
+    display: flex;
+}
+
+.box-container div{  
+    width:200px;
+    min-height: 250px;
+    margin: 20px;
+    background: rosybrown;
+}
+
+.box-container .moldura{    
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.moldura img{
+    width: 100%;
+}
+
+.box-container .overlay{
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5); /*para dar transparência pode dar-se o fator alpha que dá opacidade utilizando o rgba que varia entre 0 e 1*/
+    position: absolute; /* Se não se disser em relaão a quem ele é absoluto, por pré-definição será em relação ao body*/
+    top: 0;
+    left: 0;
+    margin: 0;
+   /* opacity: 0.5; /* dá opacidade a tudo o que está dentro do div o que para certos caso não funciona*/
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+    .box-container div{
+        width: 100%;
+        margin: 0;
+    }
+}

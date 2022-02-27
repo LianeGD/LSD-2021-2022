@@ -1,0 +1,13 @@
+.box-content{
+    display: flex;  /*coloca as caixas lado a lado sem necessidade do float left (organiza as caixas)*/
+    flex-direction: row-reverse; /* column - obriga a ficar em coluna enquanto que row - obriga a ficar como linha e o row-reverse altera a ordem*/
+}
+.caixa{
+    width: 500px;
+    height: 100px;
+    background: red;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}

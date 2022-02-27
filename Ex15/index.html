@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-with, initial scale=1.0">
+    <title>Document1</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+   
+</head>
+<!--Galeria de vídeos (para is buscar ao youtube --abrir vídeo, clicar em partilhar, de seguida em incorporar e copiar o link que aparece)-->
+<body>
+    <div class="wrapper">
+        <div class="moldura-video">
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/ffcitRgiNDs" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </div>
+        <div class="moldura-video">
+            <video autoplay controls>  <!--com javascript podemos obrigar a que o vídeo começe a tocar-->
+                <source src="media/Titanic with a Cat.mp4" type="video/mp4">
+                <source src="media/Titanic with a Cat.avi" type="video/avi">
+                <source src="media/Titanic with a Cat.mpeg" type="video/mpeg">
+            </video>
+        </div>
+        <div class="moldura-audio">
+            <audio autoplay>
+                <source src="music/Carlos Vives, Shakira - La Bicicleta (Official Video).mp3">
+            </audio>
+        </div>
+    </div>   
+</body>                        
+</html>
