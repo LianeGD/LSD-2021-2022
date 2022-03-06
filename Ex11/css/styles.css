@@ -37,7 +37,7 @@ article img{
     top: calc(50% - 15px); /* para centrar o título faz-se o cálculo de 50% da imagem menos metade do tamanho que foi dado ao título, para o caso é 50%-20(height)+5(padding)+5(padding)=50% de 30px o que perfaz os 15px colocados na conta */
     left: 0;
     height: 20px;
-    padding: 5px;;
+    padding: 5px;
 }
 
 

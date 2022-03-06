@@ -1,0 +1,408 @@
+@font-face {
+   font-family: "My-font";
+   src: url(../fonts/Pacifico-Regular.ttf);
+}
+.wrapper{
+    width:100%;
+    height: 5000px;
+    float: left;
+    background-color: orange;
+}
+
+header{
+    width: 100%;
+    height:1214px;
+    float: left;
+    background-color: cornflowerblue;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    
+}
+
+header div{
+    text-align: center;
+}
+
+span{
+    color: yellowgreen;
+}
+.moldura img{
+    width: 100%;
+}
+
+#top-bar{
+    width: 100%;
+    height: 100px;
+    /*background-color: darkseagreen;*/
+    border-bottom: 1px solid white;
+}
+.log{
+    width:50%;
+    background-color: crimson;
+    float: left;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "My-font";
+    color: white;
+    
+}
+
+.navegation{
+    width: 50%;
+    background-color: darkgoldenrod;
+    float: right;
+    margin-top:45px;
+    font-size: 15px;
+    color: white;
+    
+}
+.navegation ul{
+    display: flex;
+}
+
+.navegation li{
+    
+    padding-left: 15px;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 400px;
+}
+
+header p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    padding-bottom: 20px;
+}
+
+
+header div button{
+    width: 150px;
+    height: 50px;
+    background: yellowgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+
+.hero{
+    width: 100%;
+    height: 350px;
+    background-color: yellowgreen;
+    float: left;
+}
+
+.hero div :first-child{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+.hero p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+.main-content{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    float: left;
+}
+
+.coluna1{
+    width: 50%;
+    float: left;
+    height: 450px;
+    /*background-color: blueviolet;*/
+}
+
+
+.moldura{
+    width:500px;
+    height:330px;
+    margin-top: 60px;
+    border-radius: 75%;
+    overflow: hidden; 
+    float: right;
+}
+
+.coluna2{
+    width: 50%;
+    /*background-color: aquamarine;*/
+    float: left;
+    height: 450px;
+}
+
+.coluna2 div{
+    width: calc(100% - 40px);
+    margin-top: 100px;
+    padding-left: 20px;
+
+}
+
+h3{
+    font-size: 25px;
+    text-align: left;
+    color: black;
+}
+
+.coluna2 p{
+    font-size: 20px;
+    text-align: left;
+    color: gray;
+    line-height: 25px;
+    margin-top: 15px;
+    
+}
+
+.coluna2 div button{
+width: 130px;
+height: 50px;
+background: yellowgreen;
+color: white;
+font-size: 15px;
+border: none;
+padding: 10px;
+border-radius: 25px;
+text-transform: uppercase;
+text-align: center;
+margin-top: 20px;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    float: left;
+}
+
+.coluna3{
+    width: 50%;
+    float: left;
+    height: 450px;
+    /*background-color: blueviolet;*/
+}
+
+.moldura1{
+    width:500px;
+    height:330px;
+    margin-top: 60px;
+    border-radius: 75%;
+    overflow: hidden; 
+    float: left;
+}
+
+.coluna4{
+    width: 50%;
+    /*background-color: aquamarine;*/
+    float: left;
+    height: 450px;
+}
+
+.coluna3 div{
+    
+    margin-top: 100px;
+    float: right;
+    padding-right: 20px;
+    
+
+}
+
+h4{
+    font-size: 25px;
+    text-align: left;
+    color: white;
+}
+
+.coluna3 p{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 25px;
+    margin-top: 15px;
+    
+}
+
+.coluna3 div button{
+width: 130px;
+height: 50px;
+background: white;
+color: black;
+font-size: 15px;
+border: none;
+padding: 10px;
+border-radius: 25px;
+text-transform: uppercase;
+text-align: center;
+margin-top: 20px;
+}
+
+
+section .article-section{
+    width: 100%;
+    background-color: antiquewhite;
+    float: left;
+    height: 250px;
+}
+
+.article-section ul{
+    width: 100%;
+    float: left;
+}
+
+.article-section li{
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+}
+
+.moldura2{
+    width:100%;
+    float: left;
+}
+
+.moldura2 img{
+    width: 100%;
+}
+
+.article-list li{
+    width: 33.33%;
+    position: relative;
+    float: left;
+}
+
+.titulo-imagem{
+    width: calc(100% - 20px); 
+    text-align: center;
+    position: absolute; 
+    top: calc(50% - 35px); /*50% - 50 +10 +10=50% de 35px*/
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    color: pink;
+    font-size: 50px;
+}
+
+
+.pre-footer{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+.pre-footer div :first-child{
+    font-size: 40px;
+    color: yellowgreen;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+h5{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+}
+
+.pre-footer p{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pre-footer{
+    text-align: center;
+}
+.pre-footer button{
+    width: 150px;
+    height: 50px;
+    background: yellowgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer{
+    width:100%;
+    height:300px;
+    background-color: yellowgreen;
+    float: left;
+}
+
+h6{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 65px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer div{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.the-end{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+
+.the-end p{
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    margin-top: 45px;
+}
